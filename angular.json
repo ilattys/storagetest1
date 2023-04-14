@@ -97,6 +97,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "storagetest1:build:production",
+            "firebaseProject": "storagetest1-42e00",
+            "firebaseHostingSite": "storagetest1-42e00"
+          }
         }
       }
     }

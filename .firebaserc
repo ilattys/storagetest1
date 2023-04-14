@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "storagetest1-42e00": {
+      "hosting": {
+        "storagetest1": [
+          "storagetest1-42e00"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "storagetest1-42e00"
+  }
+}
